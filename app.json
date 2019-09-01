@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/histroy/histroy",
+    "pages/change/change"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00E3E3",
+    "navigationBarTitleText": "皮皮翻译",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "red"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "top",
+    "color": "#595959",
+    "selectedColor": "#1c1b21",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/histroy/histroy",
+        "text": "历史"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
